@@ -10,7 +10,7 @@ const Navbar = () => {
   };
   return (
     <div className="App">
-      <header className="header">
+      <header className="header pt-[0.5rem] pb-[0.5rem]">
         <a href="#" className="logo">
           <img src={logo} className="h-[4rem] w-[4rem]" />
         </a>
@@ -19,7 +19,7 @@ const Navbar = () => {
           id="menu-icon"
           onClick={toggleMenu}
         ></i>
-        <nav className={isActive ? "navbar active" : "navbar"}>
+        <nav className={isActive ? "navbar active" : "navbar justify-end"}>
           <a href="#">Home</a>
           <a href="#">About</a>
           <a href="#">Portfolio</a>
