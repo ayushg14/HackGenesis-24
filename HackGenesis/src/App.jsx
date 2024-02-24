@@ -1,13 +1,16 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Test from "./Pages/Home/Test";
+import Hero from "./components/Hero";
+import Section2 from "./components/Section2";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Test />
+      <Hero />
+      <Section2 />
+
     </div>
   );
 }
