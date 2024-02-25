@@ -5,6 +5,9 @@ import Hero from "./components/Hero";
 import Section2 from "./components/Section2";
 import Marquee from "./components/Marquee";
 import Tracks from "./components/Tracks";
+import Schedule from "./components/Schedule";
+import Banner from "./components/Banner";
+import FAQ from "./components/FAQ";
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       <Marquee />
       {/* <Section2 /> */}
       <Tracks />
+      <Schedule />
+      {/* <Banner /> */}
+      <FAQ />
     </div>
   );
 }
