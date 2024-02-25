@@ -2,12 +2,13 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Section2 from "./components/Section2";
 import Marquee from "./components/Marquee";
 import Tracks from "./components/Tracks";
 import Schedule from "./components/Schedule";
 import Banner from "./components/Banner";
 import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
+import Section from "./components/Section";
 
 function App() {
   return (
@@ -16,11 +17,12 @@ function App() {
       <Hero />
       <Marquee />
       <Marquee />
-      {/* <Section2 /> */}
+      <Section />
       <Tracks />
       <Schedule />
       {/* <Banner /> */}
       <FAQ />
+      <Footer />
     </div>
   );
 }
