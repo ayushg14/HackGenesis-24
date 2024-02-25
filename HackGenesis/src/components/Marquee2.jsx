@@ -1,10 +1,9 @@
-// Marquee.js
 import React from "react";
-import "../App.css"; // Import the stylesheet
+import "../App.css";
 
-const Marquee = () => {
+const Marquee2 = () => {
   return (
-    <div className="marquee lg:z-[999] lg:absolute lg:bottom-[0rem]">
+    <div className="marquee lg:z-[999] lg:absolute lg:bottom-[-2rem]">
       <div className="track">
         <div className="content">
           &nbsp;HACK GENESIS HACK GENESIS HACK GENESIS HACK GENESIS HACK GENESIS
@@ -22,4 +21,4 @@ const Marquee = () => {
   );
 };
 
-export default Marquee;
+export default Marquee2;

@@ -9,6 +9,8 @@ import Banner from "./components/Banner";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 import Section from "./components/Section";
+import Marquee2 from "./components/Marquee2";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -16,7 +18,7 @@ function App() {
       <Navbar />
       <Hero />
       <Marquee />
-      <Marquee />
+      <Marquee2 />
       <Section />
       <Tracks />
       <Schedule />

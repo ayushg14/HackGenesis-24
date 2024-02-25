@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-
+/* @import url("./assets/Hagrid Regular.otf"); */
+@font-face {
+  font-family: "ayush"; /* Give your font a name */
+  src: url("./assets/Hagrid Regular.otf") format("opentype"); /* Specify the path to your font file */
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "ayush";
+  /* background: #000; */
 }
 
 body {
@@ -12,6 +18,8 @@ body {
   background: url("background.jpg") no-repeat;
   background-size: cover;
   background-position: center;
+  /* font-family: "ayush"; */
+  background: #000;
 }
 
 .header {
@@ -220,7 +228,7 @@ body {
   top: 0;
   left: 50%;
   margin-left: -3px;
-  z-index: -1;
+  /* z-index: ; */
   animation: moveline 6s linear forwards;
 }
 @keyframes moveline {

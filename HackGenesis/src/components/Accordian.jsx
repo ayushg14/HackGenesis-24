@@ -21,11 +21,14 @@ const Accordian = () => {
           onClick={() => handleCollapseToggle(0)}
         />
         <div className="collapse-title text-xl font-medium">
-          Click to open this one and close others
+          Who can participate?
         </div>
         {expandedIndex === 0 && (
           <div className="collapse-content">
-            <p>hello</p>
+            <p>
+              Well, if you've got fingers to type, you breathe air, and a brain
+              <br /> full of ideas, you're in!
+            </p>
           </div>
         )}
       </div>
@@ -38,11 +41,15 @@ const Accordian = () => {
           onClick={() => handleCollapseToggle(1)}
         />
         <div className="collapse-title text-xl font-medium">
-          Click to open this one and close others
+          As the hackathon runs in hybrid mode, who gets the golden
+          <br /> ticket for offline fun?
         </div>
         {expandedIndex === 1 && (
           <div className="collapse-content">
-            <p>hello</p>
+            <p>
+              Only the crème de la crème, the chosen few destined for glory at
+              the finale!
+            </p>
           </div>
         )}
       </div>
@@ -55,11 +62,17 @@ const Accordian = () => {
           onClick={() => handleCollapseToggle(2)}
         />
         <div className="collapse-title text-xl font-medium">
-          Click to open this one and close others
+          Will travel reimbursement be provided for offline
+          <br /> participants (finalists)?
         </div>
         {expandedIndex === 2 && (
           <div className="collapse-content">
-            <p>hello</p>
+            <p>
+              Nope, sorry! Hack Genesis '24 won't be covering travel expenses
+              for
+              <br /> offline mode participants. Better start saving those
+              pennies!
+            </p>
           </div>
         )}
       </div>
@@ -71,12 +84,15 @@ const Accordian = () => {
           checked={expandedIndex === 3}
           onClick={() => handleCollapseToggle(3)}
         />
-        <div className="collapse-title text-xl font-medium">
-          Click to open this one and close others
-        </div>
+        <div className="collapse-title text-xl font-medium">Team size?</div>
         {expandedIndex === 3 && (
           <div className="collapse-content">
-            <p>hello</p>
+            <p>
+              It's a party of 2-4, but hey, solo flyers, fear not! You can still
+              <br /> hop aboard and find your dream team through our Discord
+              <br /> server or team building events. Who knows, you might just
+              <br /> find your coding soulmate! 😉
+            </p>
           </div>
         )}
       </div>
@@ -89,11 +105,16 @@ const Accordian = () => {
           onClick={() => handleCollapseToggle(4)}
         />
         <div className="collapse-title text-xl font-medium">
-          Click to open this one and close others
+          Is this hackathon beginner-friendly?
         </div>
         {expandedIndex === 4 && (
           <div className="collapse-content">
-            <p>hello</p>
+            <p>
+              Absolutely! We welcome beginners with open arms, a warm smile,
+              <br /> and a truckload of virtual high-fives. So don't be shy,
+              jump right in
+              <br /> and let the hacking adventures begin!
+            </p>
           </div>
         )}
       </div>
@@ -106,11 +127,18 @@ const Accordian = () => {
           onClick={() => handleCollapseToggle(5)}
         />
         <div className="collapse-title text-xl font-medium">
-          Click to open this one and close others
+          Is the hackathon solely focused on coding, or is there
+          <br /> more to it than meets the eye?
         </div>
         {expandedIndex === 5 && (
           <div className="collapse-content">
-            <p>hello</p>
+            <p>
+              Surprises await! While coding is definitely a big part of the fun,
+              <br />
+              there's a whole world of exciting surprises waiting to be
+              uncovered
+              <br /> throughout the hackathon journey.
+            </p>
           </div>
         )}
       </div>
@@ -123,16 +151,21 @@ const Accordian = () => {
           onClick={() => handleCollapseToggle(6)}
         />
         <div className="collapse-title text-xl font-medium">
-          Click to open this one and close others
+          Curious about anything else?
         </div>
         {expandedIndex === 6 && (
           <div className="collapse-content">
-            <p>hello</p>
+            <p>
+              🤔 Don't hesitate to drop us a line at
+              <br />
+              technicalclubofscience.ncr@christuniversity.in. <br />
+              We're all ears!
+            </p>
           </div>
         )}
       </div>
 
-      <div className="collapse collapse-plus bg-base-200 m-[2rem]">
+      {/* <div className="collapse collapse-plus bg-base-200 m-[2rem]">
         <input
           type="radio"
           name="my-accordion-3"
@@ -140,14 +173,19 @@ const Accordian = () => {
           onClick={() => handleCollapseToggle(7)}
         />
         <div className="collapse-title text-xl font-medium">
-          Click to open this one and close others
+          Curious about anything else?
         </div>
         {expandedIndex === 7 && (
           <div className="collapse-content">
-            <p>hello</p>
+            <p>
+              🤔 Don't hesitate to drop us a line at
+              <br />
+              technicalclubofscience.ncr@christuniversity.in. <br />
+              We're all ears!
+            </p>
           </div>
         )}
-      </div>
+      </div> */}
     </div>
   );
 };

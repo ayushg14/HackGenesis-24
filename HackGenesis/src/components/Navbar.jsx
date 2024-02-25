@@ -21,11 +21,14 @@ const Navbar = () => {
             onClick={toggleMenu}
           ></i>
           <nav className={isActive ? "navbar active" : "navbar justify-end"}>
-            <a href="#">Home</a>
             <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
+            <a href="#">Tracks</a>
+            <a href="#">Schedule</a>
+            {/* <a href="#">Prizes</a>
+            <a href="#">Sponsores</a>
+            <a href="#">Teams</a> */}
+            <a href="#">FAQ</a>
+            {/* <a href="#">Contact</a> */}
           </nav>
         </header>
         <div className={isActive ? "nav-bg active" : "nav-bg"}></div>
@@ -60,20 +63,20 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Home</a>
+                <a href="#">About</a>
               </li>
               <li>
-                <a>About</a>
+                <a href="#">Tracks</a>
               </li>
               <li>
-                <a>Portfolio</a>
+                <a href="#">Schedule</a>
               </li>
               <li>
-                <a>Services</a>
+                <a href="#">FAQ</a>
               </li>
-              <li>
+              {/* <li>
                 <a>Contact</a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="flex justify-center w-[15rem]">
