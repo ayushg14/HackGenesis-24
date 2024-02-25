@@ -2,7 +2,7 @@ import React from "react";
 import heart from "../assets/Heart.png";
 import energy from "../assets/Energy.png";
 import Web3 from "../assets/Web3.png";
-import ml from "../assets/AI:ML.png";
+import ml from "../assets/AIML.png";
 import innvoation from "../assets/Innovation.png";
 import "../App.css";
 
