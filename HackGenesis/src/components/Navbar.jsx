@@ -79,7 +79,7 @@ const Navbar = () => {
               </li> */}
             </ul>
           </div>
-          <div className="flex justify-center w-[15rem]">
+          <div className="flex justify-end w-[15rem]">
             <a href="#" className="logo">
               <img src={logo} className="h-[4rem] w-[4rem]" />
             </a>

@@ -158,12 +158,45 @@ const Accordian = () => {
             <p>
               🤔 Don't hesitate to drop us a line at
               <br />
-              technicalclubofscience.ncr@christuniversity.in. <br />
+              <span>
+                <a
+                  href="mailto:technicalclubofscience.ncr@christuniversity.in"
+                  target="_blank"
+                  className="text-[#8A2BE2]"
+                >
+                  technicalclubofscience.ncr
+                  <br className="lg:hidden" />
+                  @christuniversity.in
+                </a>
+              </span>{" "}
+              <br />
               We're all ears!
             </p>
           </div>
         )}
       </div>
+
+      {/* <div className="collapse collapse-plus bg-base-200 m-[2rem]">
+        <input
+          type="radio"
+          name="my-accordion-3"
+          checked={expandedIndex === 6}
+          onClick={() => handleCollapseToggle(6)}
+        />
+        <div className="collapse-title text-xl font-medium">
+          Curious about anything else?
+        </div>
+        {expandedIndex === 6 && (
+          <div className="collapse-content">
+            <p>
+              🤔 Don't hesitate to drop us a line at
+              <br />
+              technicalclubofscience.ncr@christuniversity.in. <br />
+              We're all ears!
+            </p>
+          </div>
+        )}
+      </div> */}
 
       {/* <div className="collapse collapse-plus bg-base-200 m-[2rem]">
         <input

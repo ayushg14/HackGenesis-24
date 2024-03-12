@@ -39,7 +39,7 @@ const Footer = () => {
           <ul>
             <li>
               <span className="copyright-footer p-[2rem] md:w-[18rem] lg:w-[30rem] flex justify-center text-center">
-                Copyright &copy; 2023 Hack Genesis'24. All Rights Reserved.
+                Copyright &copy; 2024 Hack Genesis '24. All Rights Reserved.
               </span>
             </li>
           </ul>
