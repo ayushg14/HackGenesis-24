@@ -12,6 +12,7 @@ import Section from "./components/Section";
 import Marquee2 from "./components/Marquee2";
 import { Analytics } from "@vercel/analytics/react";
 import Sponsers from "./components/Sponsers";
+import TeamCategories from "./components/TeamCategories";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Sponsers />
       {/* <Banner /> */}
       <FAQ />
+      <TeamCategories />
       <Footer />
     </div>
   );
