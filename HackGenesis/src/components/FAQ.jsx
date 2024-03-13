@@ -5,7 +5,9 @@ import Accordion from "./Accordian";
 const FAQ = () => {
   return (
     <div className="m-10">
-      <h1 className="text-6xl text-center md:m-[2rem] md:mb-[3rem]">FAQ</h1>
+      <h1 className="text-6xl text-center md:m-[2rem] md:mb-[3rem] text-white">
+        FAQ
+      </h1>
       <div className="flex justify-evenly items-center max-md:flex-col">
         <div>
           <img

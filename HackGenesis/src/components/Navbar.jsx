@@ -1,34 +1,69 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "../App.css"; // Assuming you have your CSS in a file named App.css
 import logo from "../assets/Clip path group.png";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
+  const dropdownRef = useRef(null);
 
   const toggleMenu = () => {
     setIsActive(!isActive);
   };
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsActive(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+  const handlePageClick = () => {
+    setIsActive(false);
+  };
+
   return (
     <div>
       <div className="App max-md:hidden">
         <header className="header pt-[0.5rem] pb-[0.5rem]">
           <a href="#" className="logo">
-            <img src={logo} className="h-[4rem] w-[4rem]" />
+            <img src={logo} className="h-[4rem] w-[4rem]" alt="Logo" />
           </a>
-          <i
-            className={isActive ? "bx bx-x" : "bx bx-menu"}
-            id="menu-icon"
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-5 w-5 cursor-pointer lg:hidden"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
             onClick={toggleMenu}
-          ></i>
+          >
+            {isActive ? (
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            ) : (
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            )}
+          </svg>
           <nav className={isActive ? "navbar active" : "navbar justify-end"}>
             <a href="#">About</a>
             <a href="#">Tracks</a>
             <a href="#">Schedule</a>
-            {/* <a href="#">Prizes</a>
-            <a href="#">Sponsores</a>
-            <a href="#">Teams</a> */}
             <a href="#">FAQ</a>
-            {/* <a href="#">Contact</a> */}
           </nav>
         </header>
         <div className={isActive ? "nav-bg active" : "nav-bg"}></div>
@@ -37,30 +72,43 @@ const Navbar = () => {
       {/* Medium screen Navbar */}
       <div className="flex justify-between p-[2rem] md:hidden">
         <header className="header pt-[0.5rem] pb-[0.5rem]">
-          <div className="dropdown">
+          <div className="dropdown" ref={dropdownRef}>
             <div
               tabIndex={0}
               role="button"
               className="btn btn-ghost btn-circle"
+              onClick={toggleMenu}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-5 w-5 cursor-pointer lg:hidden"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16M4 18h7"
-                />
+                {isActive ? (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                ) : (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h16m-7 6h7"
+                  />
+                )}
               </svg>
             </div>
             <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className={
+                isActive
+                  ? "menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                  : "hidden"
+              }
             >
               <li>
                 <a href="#">About</a>
@@ -74,18 +122,15 @@ const Navbar = () => {
               <li>
                 <a href="#">FAQ</a>
               </li>
-              {/* <li>
-                <a>Contact</a>
-              </li> */}
             </ul>
           </div>
           <div className="flex justify-end w-[15rem]">
-            <a href="#" className="logo">
-              <img src={logo} className="h-[4rem] w-[4rem]" />
+            <a href="#" className="logo mr-[1rem]">
+              <img src={logo} className="h-[4rem] w-[4rem]" alt="Logo" />
             </a>
           </div>
         </header>
-        <div className={isActive ? "nav-bg active" : "nav-bg"}></div>
+        <div className={isActive} onClick={handlePageClick}></div>
       </div>
     </div>
   );

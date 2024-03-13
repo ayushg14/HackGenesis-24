@@ -7,10 +7,10 @@ import "../App.css";
 const Sponsers = () => {
   return (
     <div className="flex flex-col justify-center items-center m-[2rem] mt-[4rem]">
-      <h1 className="text-6xl text-center">Sponsers</h1>
-      <div className="m-[3rem] mb-[2rem] mt-[5rem]">
+      <h1 className="text-6xl text-center text-white">Sponsers</h1>
+      <div className="m-[3rem] mb-[2rem] mt-[4rem]">
         <div className="flex justify-center items-center mb-[3rem]">
-          <h1 className="bg-[#1A1E23] h-[3rem] w-[11rem] p-[0.6rem] pt-[0.7rem] text-center rounded-[2rem] hover:cursor-pointer">
+          <h1 className="bg-[#1A1E23] h-[3rem] w-[11rem] p-[0.6rem] pt-[0.7rem] text-center rounded-[2rem] hover:cursor-pointer text-lg">
             Gold Sponsers
           </h1>
           {/* <button className="btn">Gold Sponsers</button> */}
@@ -57,7 +57,7 @@ const Sponsers = () => {
       {/* Silver Sponsers */}
       <div className="m-[3rem] mb-[2rem] mt-[2rem]">
         <div className="flex justify-center items-center mb-[3rem]">
-          <h1 className="bg-[#1A1E23] h-[3rem] w-[12rem] p-[0.6rem] pt-[0.7rem] text-center rounded-[2rem] hover:cursor-pointer">
+          <h1 className="bg-[#1A1E23] h-[3rem] w-[12rem] p-[0.6rem] pt-[0.7rem] text-center rounded-[2rem] hover:cursor-pointer text-lg">
             Silver Sponsers
           </h1>
         </div>

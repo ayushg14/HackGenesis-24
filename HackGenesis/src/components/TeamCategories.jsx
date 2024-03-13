@@ -35,25 +35,25 @@ const TeamCategories = () => {
       //   { name: "David", image: "https://via.placeholder.com/150" },
     ],
     pr: [
-      { name: "Sarah", image: "https://via.placeholder.com/150" },
-      { name: "Michael", image: "https://via.placeholder.com/150" },
-      { name: "Olivia", image: "https://via.placeholder.com/150" },
-      { name: "James", image: "https://via.placeholder.com/150" },
-      { name: "Emma", image: "https://via.placeholder.com/150" },
-      { name: "Sophia", image: "https://via.placeholder.com/150" },
-      { name: "William", image: "https://via.placeholder.com/150" },
-      { name: "Ava", image: "https://via.placeholder.com/150" },
-      { name: "Matthew", image: "https://via.placeholder.com/150" },
-      { name: "Ethan", image: "https://via.placeholder.com/150" },
+      // { name: "Sarah", image: "https://via.placeholder.com/150" },
+      // { name: "Michael", image: "https://via.placeholder.com/150" },
+      // { name: "Olivia", image: "https://via.placeholder.com/150" },
+      // { name: "James", image: "https://via.placeholder.com/150" },
+      // { name: "Emma", image: "https://via.placeholder.com/150" },
+      // { name: "Sophia", image: "https://via.placeholder.com/150" },
+      // { name: "William", image: "https://via.placeholder.com/150" },
+      // { name: "Ava", image: "https://via.placeholder.com/150" },
+      // { name: "Matthew", image: "https://via.placeholder.com/150" },
+      // { name: "Ethan", image: "https://via.placeholder.com/150" },
     ],
     logistics: [
-      { name: "Daniel", image: "https://via.placeholder.com/150" },
-      { name: "Isabella", image: "https://via.placeholder.com/150" },
-      { name: "Alexander", image: "https://via.placeholder.com/150" },
-      { name: "Mia", image: "https://via.placeholder.com/150" },
+      // { name: "Daniel", image: "https://via.placeholder.com/150" },
+      // { name: "Isabella", image: "https://via.placeholder.com/150" },
+      // { name: "Alexander", image: "https://via.placeholder.com/150" },
+      // { name: "Mia", image: "https://via.placeholder.com/150" },
     ],
-    category4: [],
-    category5: [],
+    // category4: [],
+    // category5: [],
   };
 
   // Function to show team members for a specific category
@@ -136,37 +136,37 @@ const TeamCategories = () => {
       <h1 className="text-4xl text-center">TEAMS</h1>
 
       {/* Categories */}
-      <div className="flex justify-center mt-4">
+      <div className="flex justify-center mt-4 max-sm:flex-wrap">
         <button
           onClick={() => showCategory("tech")}
-          className="btn btn-primary mx-2"
+          className="btn btn-primary mx-2 m-[0.5rem]"
         >
           Tech
         </button>
         <button
           onClick={() => showCategory("pr")}
-          className="btn btn-primary mx-2"
+          className="btn btn-primary mx-2 m-[0.5rem]"
         >
           PR
         </button>
         <button
           onClick={() => showCategory("logistics")}
-          className="btn btn-primary mx-2"
+          className="btn btn-primary mx-2 m-[0.5rem]"
         >
           Logistics
         </button>
-        <button
+        {/* <button
           onClick={() => showCategory("category4")}
-          className="btn btn-primary mx-2"
+          className="btn btn-primary mx-2 m-[0.5rem]"
         >
           Category 4
         </button>
         <button
           onClick={() => showCategory("category5")}
-          className="btn btn-primary mx-2"
+          className="btn btn-primary mx-2 m-[0.5rem]"
         >
           Category 5
-        </button>
+        </button> */}
       </div>
 
       {/* Team Members */}

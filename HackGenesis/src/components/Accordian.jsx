@@ -156,7 +156,8 @@ const Accordian = () => {
         {expandedIndex === 6 && (
           <div className="collapse-content">
             <p>
-              🤔 Don't hesitate to drop us a line at
+              🤔 Don't hesitate to drop us <br />
+              a line at
               <br />
               <span>
                 <a

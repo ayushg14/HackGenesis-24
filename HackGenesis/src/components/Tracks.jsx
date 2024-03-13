@@ -10,8 +10,8 @@ import "../App.css";
 const Tracks = () => {
   return (
     <div className="md:m-[3rem] max-md:mt-[3rem] lg:relative lg:bottom-[6rem]">
-      <h1 className="text-7xl flex justify-center items-center md:m-[2rem] md:mb-[3rem]">
-        TRACKS
+      <h1 className="text-6xl flex justify-center items-center md:m-[2rem] md:mb-[3rem] text-white">
+        Tracks
       </h1>
       {/* <div className="grid grid-rows-2 grid-flow-col gap-3"> */}
       <div className="flex flex-wrap justify-center">
@@ -43,7 +43,7 @@ const Tracks = () => {
             <img src={cyber} className="w-[3.5rem] mr-2" />
             <h1 className="text-2xl ml-[0.5rem]">Cybersecurity</h1>
           </div>
-          <p className="w-[18rem] m-auto ml-10">
+          <p className="w-[18rem] m-auto ml-10 mt-7">
             Navigate the evolving landscape of cybersecurity threats and
             defenses, mastering techniques to safeguard digital assets.
           </p>

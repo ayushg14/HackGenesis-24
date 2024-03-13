@@ -3,7 +3,7 @@ import "../App.css";
 
 const Marquee2 = () => {
   return (
-    <div className="marquee lg:z-[999] lg:absolute lg:bottom-[-2rem]">
+    <div className="marquee lg:z-[999] lg:absolute lg:bottom-[2.5rem]">
       <div className="track">
         <div className="content">
           &nbsp;HACK GENESIS HACK GENESIS HACK GENESIS HACK GENESIS HACK GENESIS

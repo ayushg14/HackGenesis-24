@@ -4,7 +4,7 @@ import "../App.css"; // Import the stylesheet
 
 const Marquee = () => {
   return (
-    <div className="marquee lg:z-[999] lg:absolute lg:bottom-[0rem]">
+    <div className="marquee lg:z-[999] lg:absolute lg:bottom-[4rem]">
       <div className="track">
         <div className="content">
           &nbsp;HACK GENESIS HACK GENESIS HACK GENESIS HACK GENESIS HACK GENESIS

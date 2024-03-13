@@ -4,7 +4,7 @@ import infinity from "../assets/infinity.png";
 const Section = () => {
   return (
     <div className="lg:relative lg:bottom-[6rem]">
-      <h1 className="text-5xl text-center max-sm:mt-[5rem] md:mt-[0rem]">
+      <h1 className="text-5xl text-center max-sm:mt-[5rem] md:mt-[2rem] text-white">
         What is Hack Genesis ?
       </h1>
       <div className="flex max-md:flex-col md:flex-col lg:flex-row  justify-around items-center">
@@ -13,7 +13,7 @@ const Section = () => {
             Get ready for an exhilarating experience at Hack Genesis '24, the
             inaugural hackathon hosted by the Technical Club of Sciences in
             collaboration with the Corporate Club from Christ (Deemed to be
-            University), Delhi NCR. Over the course of 48+ hours, participants
+            University), Delhi NCR. Over the course of 36+ hours, participants
             will dive into 5+ themed challenges, pushing the boundaries of
             innovation and creativity. 🚀 <br />
             <br />
@@ -44,7 +44,7 @@ const Section = () => {
         <div className="lg:relative right-[7rem] m-[2rem]">
           <div className="bg-gray-800 h-[8rem] w-[20rem] rounded-xl">
             <div className="flex flex-col justify-center items-start relative top-[2rem] ml-5">
-              <h1 className="text-4xl mb-[0.5rem] text-[#EA4CDC]">48+</h1>
+              <h1 className="text-4xl mb-[0.5rem] text-[#EA4CDC]">36+</h1>
               <h1 className="">Hours of Hacking</h1>
             </div>
           </div>
