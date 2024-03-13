@@ -37,7 +37,7 @@ const Hero = () => {
             <CountdownTimer />
           </div>
 
-          <div className="flex justify-center items-center relative top-[7rem] mb-[10rem] max-sm:top-[5rem]">
+          <div className="flex justify-center items-center relative top-[7rem] max-sm:top-[5rem]">
             <div
               className="apply-button flex justify-center items-center"
               data-hackathon-slug="hack-genesis"
