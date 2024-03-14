@@ -117,7 +117,7 @@ const Card = () => {
   };
 
   return (
-    <div>
+    <div id="team" className="pt-[1rem]">
       <h1 className="text-6xl text-center text-white m-[2rem]">Teams</h1>
       <div className="flex justify-center mb-[4rem]">
         <button

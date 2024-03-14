@@ -64,6 +64,8 @@ const Navbar = () => {
             <a href="#about">About</a>
             <a href="#tracks">Tracks</a>
             <a href="#schedule">Schedule</a>
+            <a href="#team">Team</a>
+            <a href="#sponsors">Sponsors</a>
             <a href="#faq">FAQ</a>
           </nav>
         </header>
@@ -119,6 +121,12 @@ const Navbar = () => {
               </li>
               <li>
                 <a href="#schedule">Schedule</a>
+              </li>
+              <li>
+                <a href="#team">Team</a>
+              </li>
+              <li>
+                <a href="#sponsors">Sponsors</a>
               </li>
               <li>
                 <a href="#faq">FAQ</a>

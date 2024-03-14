@@ -6,7 +6,10 @@ import "../App.css";
 
 const Sponsers = () => {
   return (
-    <div className="flex flex-col justify-center items-center m-[2rem] mt-[4rem]">
+    <div
+      className="flex flex-col justify-center items-center m-[2rem] mt-[4rem] pt-[1rem]"
+      id="sponsors"
+    >
       <h1 className="text-6xl text-center text-white">Sponsors</h1>
       <div className="m-[3rem] mb-[2rem] mt-[4rem]">
         <div className="flex justify-center items-center mb-[3rem]">
