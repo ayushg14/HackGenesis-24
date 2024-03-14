@@ -27,57 +27,7 @@ const Card = () => {
         msg: "loremwejde3hnde3hudbe3fbubqfbyufvberwyuv",
       },
       {
-        name: "Baniya Shaheb",
-        image:
-          "https://media.licdn.com/dms/image/D4D03AQGYIvCzU1QvJQ/profile-displayphoto-shrink_400_400/0/1681391031568?e=1715817600&v=beta&t=fRLPC1zmyD9ondRB-9daN1PmYWL-Eou6bb1qzfs5G-A",
-        linkedin: "https://www.linkedin.com/in/garg-anmol/",
-        instagram: "https://www.instagram.com/anmol_.garg/",
-        github: "https://github.com/AnmollGarg",
-        msg: "loremwejde3hnde3hudbe3fbubqfbyufvberwyuv",
-      },
-
-      {
-        name: "Baniya Shaheb",
-        image:
-          "https://media.licdn.com/dms/image/D4D03AQGYIvCzU1QvJQ/profile-displayphoto-shrink_400_400/0/1681391031568?e=1715817600&v=beta&t=fRLPC1zmyD9ondRB-9daN1PmYWL-Eou6bb1qzfs5G-A",
-        linkedin: "https://www.linkedin.com/in/garg-anmol/",
-        instagram: "https://www.instagram.com/anmol_.garg/",
-        github: "https://github.com/AnmollGarg",
-        msg: "loremwejde3hnde3hudbe3fbubqfbyufvberwyuv",
-      },
-
-      {
-        name: "Baniya Shaheb",
-        image:
-          "https://media.licdn.com/dms/image/D4D03AQGYIvCzU1QvJQ/profile-displayphoto-shrink_400_400/0/1681391031568?e=1715817600&v=beta&t=fRLPC1zmyD9ondRB-9daN1PmYWL-Eou6bb1qzfs5G-A",
-        linkedin: "https://www.linkedin.com/in/garg-anmol/",
-        instagram: "https://www.instagram.com/anmol_.garg/",
-        github: "https://github.com/AnmollGarg",
-        msg: "loremwejde3hnde3hudbe3fbubqfbyufvberwyuv",
-      },
-
-      {
-        name: "Baniya Shaheb",
-        image:
-          "https://media.licdn.com/dms/image/D4D03AQGYIvCzU1QvJQ/profile-displayphoto-shrink_400_400/0/1681391031568?e=1715817600&v=beta&t=fRLPC1zmyD9ondRB-9daN1PmYWL-Eou6bb1qzfs5G-A",
-        linkedin: "https://www.linkedin.com/in/garg-anmol/",
-        instagram: "https://www.instagram.com/anmol_.garg/",
-        github: "https://github.com/AnmollGarg",
-        msg: "loremwejde3hnde3hudbe3fbubqfbyufvberwyuv",
-      },
-
-      {
-        name: "Baniya Shaheb",
-        image:
-          "https://media.licdn.com/dms/image/D4D03AQGYIvCzU1QvJQ/profile-displayphoto-shrink_400_400/0/1681391031568?e=1715817600&v=beta&t=fRLPC1zmyD9ondRB-9daN1PmYWL-Eou6bb1qzfs5G-A",
-        linkedin: "https://www.linkedin.com/in/garg-anmol/",
-        instagram: "https://www.instagram.com/anmol_.garg/",
-        github: "https://github.com/AnmollGarg",
-        msg: "loremwejde3hnde3hudbe3fbubqfbyufvberwyuv",
-      },
-
-      {
-        name: "Baniya Shaheb",
+        name: "Anmol Garg",
         image:
           "https://media.licdn.com/dms/image/D4D03AQGYIvCzU1QvJQ/profile-displayphoto-shrink_400_400/0/1681391031568?e=1715817600&v=beta&t=fRLPC1zmyD9ondRB-9daN1PmYWL-Eou6bb1qzfs5G-A",
         linkedin: "https://www.linkedin.com/in/garg-anmol/",
@@ -88,39 +38,12 @@ const Card = () => {
     ],
     pr: [
       {
-        name: "Ayush Gupta",
+        name: "Aditya Sebastian",
         image:
-          "https://media.licdn.com/dms/image/D4D03AQFTxqZauNuSPg/profile-displayphoto-shrink_400_400/0/1688385692264?e=1715817600&v=beta&t=eSAt9zqs8BSIGT3uBxBjC6ubQKu0p0qW_ZRF51rB4Yk",
-        linkedin: "https://www.linkedin.com/in/ayushgupta08/",
-        instagram: "https://www.instagram.com/aashu__thespoiler/",
-        github: "https://github.com/ayushg14",
-        msg: "loremwejde3hnde3hudbe3fbubqfbyufvberwyuv",
-      },
-      {
-        name: "Ayush Gupta",
-        image:
-          "https://media.licdn.com/dms/image/D4D03AQFTxqZauNuSPg/profile-displayphoto-shrink_400_400/0/1688385692264?e=1715817600&v=beta&t=eSAt9zqs8BSIGT3uBxBjC6ubQKu0p0qW_ZRF51rB4Yk",
-        linkedin: "https://www.linkedin.com/in/ayushgupta08/",
-        instagram: "https://www.instagram.com/aashu__thespoiler/",
-        github: "https://github.com/ayushg14",
-        msg: "loremwejde3hnde3hudbe3fbubqfbyufvberwyuv",
-      },
-      {
-        name: "Ayush Gupta",
-        image:
-          "https://media.licdn.com/dms/image/D4D03AQFTxqZauNuSPg/profile-displayphoto-shrink_400_400/0/1688385692264?e=1715817600&v=beta&t=eSAt9zqs8BSIGT3uBxBjC6ubQKu0p0qW_ZRF51rB4Yk",
-        linkedin: "https://www.linkedin.com/in/ayushgupta08/",
-        instagram: "https://www.instagram.com/aashu__thespoiler/",
-        github: "https://github.com/ayushg14",
-        msg: "loremwejde3hnde3hudbe3fbubqfbyufvberwyuv",
-      },
-      {
-        name: "Ayush Gupta",
-        image:
-          "https://media.licdn.com/dms/image/D4D03AQFTxqZauNuSPg/profile-displayphoto-shrink_400_400/0/1688385692264?e=1715817600&v=beta&t=eSAt9zqs8BSIGT3uBxBjC6ubQKu0p0qW_ZRF51rB4Yk",
-        linkedin: "https://www.linkedin.com/in/ayushgupta08/",
-        instagram: "https://www.instagram.com/aashu__thespoiler/",
-        github: "https://github.com/ayushg14",
+          "https://media.licdn.com/dms/image/D4D03AQGcCZubMiHjzA/profile-displayphoto-shrink_400_400/0/1687702173877?e=1715817600&v=beta&t=zdJ9XwbuYaXfPBGEKyEPp3VQw7f5zY4Ew9JMyljITJI",
+        linkedin: "https://www.linkedin.com/in/aditya-sebastian/",
+        instagram: "https://www.instagram.com/adixseb_08/",
+        github: "#",
         msg: "loremwejde3hnde3hudbe3fbubqfbyufvberwyuv",
       },
     ],
@@ -130,9 +53,13 @@ const Card = () => {
   // Function to generate team member cards based on the selected category
   const generateCards = () => {
     return teamData[category].map((member, index) => (
-      <div className="card" key={index}>
-        <div className="image max-sm:w-[14rem]">
-          <img className="rounded-lg" src={member.image} alt={member.name} />
+      <div className="card max-sm:w-[230px] max-sm:h-[300px]" key={index}>
+        <div className="image relative">
+          <img
+            className="rounded-lg max-sm:w-[12rem] relative right-0"
+            src={member.image}
+            alt={member.name}
+          />
         </div>
         <div className="content">
           <h3 className="text-xl font-bold">{member.name}</h3>
@@ -159,7 +86,8 @@ const Card = () => {
 
   return (
     <div>
-      <div className="flex justify-center mb-4">
+      <h1 className="text-6xl text-center text-white m-[2rem]">Teams</h1>
+      <div className="flex justify-center mb-[4rem]">
         <button
           className={`mr-4 ${
             category === "tech" ? "bg-blue-500" : "bg-gray-500"
@@ -176,17 +104,17 @@ const Card = () => {
         >
           PR
         </button>
-        <button
+        {/* <button
           className={`mr-4 ${
             category === "logistics" ? "bg-blue-500" : "bg-gray-500"
           } text-white px-4 py-2 rounded`}
           onClick={() => setCategory("logistics")}
         >
           Logistics
-        </button>
+        </button> */}
       </div>
       <div className="flex items-center justify-center min-h-screen">
-        <div className="containerr flex max-sm:flex-col flex-wrap">
+        <div className="containerr flex max-sm:flex-col flex-wrap max-md:m-[2rem]">
           {generateCards()}
         </div>
       </div>
