@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "../App.css"; // Assuming you have your CSS in a file named App.css
 import logo from "../assets/Clip path group.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -32,7 +33,7 @@ const Navbar = () => {
     <div>
       <div className="App max-md:hidden">
         <header className="header pt-[0.5rem] pb-[0.5rem]">
-          <a href="#" className="logo">
+          <a href="/" className="logo">
             <img src={logo} className="h-[4rem] w-[4rem]" alt="Logo" />
           </a>
           <svg
@@ -60,10 +61,10 @@ const Navbar = () => {
             )}
           </svg>
           <nav className={isActive ? "navbar active" : "navbar justify-end"}>
-            <a href="#">About</a>
-            <a href="#">Tracks</a>
-            <a href="#">Schedule</a>
-            <a href="#">FAQ</a>
+            <a href="#about">About</a>
+            <a href="#tracks">Tracks</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#faq">FAQ</a>
           </nav>
         </header>
         <div className={isActive ? "nav-bg active" : "nav-bg"}></div>
@@ -111,16 +112,16 @@ const Navbar = () => {
               }
             >
               <li>
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#">Tracks</a>
+                <a href="#tracks">Tracks</a>
               </li>
               <li>
-                <a href="#">Schedule</a>
+                <a href="#schedule">Schedule</a>
               </li>
               <li>
-                <a href="#">FAQ</a>
+                <a href="#team">FAQ</a>
               </li>
             </ul>
           </div>

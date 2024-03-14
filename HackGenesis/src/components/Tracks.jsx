@@ -9,7 +9,10 @@ import "../App.css";
 
 const Tracks = () => {
   return (
-    <div className="md:m-[3rem] max-md:mt-[3rem] lg:relative lg:bottom-[6rem]">
+    <div
+      className="md:m-[3rem] max-md:mt-[3rem] lg:relative lg:bottom-[6rem]"
+      id="tracks"
+    >
       <h1 className="text-6xl flex justify-center items-center md:m-[2rem] md:mb-[3rem] text-white">
         Tracks
       </h1>

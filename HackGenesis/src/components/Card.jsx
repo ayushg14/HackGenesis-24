@@ -36,23 +36,19 @@ const Card = () => {
         msg: "loremwejde3hnde3hudbe3fbubqfbyufvberwyuv",
       },
     ],
-    pr: [
-      {
-        name: "Aditya Sebastian",
-        image:
-          "https://media.licdn.com/dms/image/D4D03AQGcCZubMiHjzA/profile-displayphoto-shrink_400_400/0/1687702173877?e=1715817600&v=beta&t=zdJ9XwbuYaXfPBGEKyEPp3VQw7f5zY4Ew9JMyljITJI",
-        linkedin: "https://www.linkedin.com/in/aditya-sebastian/",
-        instagram: "https://www.instagram.com/adixseb_08/",
-        github: "#",
-        msg: "loremwejde3hnde3hudbe3fbubqfbyufvberwyuv",
-      },
-    ],
+    pr: [],
     logistics: [],
   };
 
   // Function to generate team member cards based on the selected category
   const generateCards = () => {
-    return teamData[category].map((member, index) => (
+    const teamMembers = teamData[category];
+
+    if (teamMembers.length === 0) {
+      return <p className="text-center text-white">No People</p>;
+    }
+
+    return teamMembers.map((member, index) => (
       <div className="card max-sm:w-[230px] max-sm:h-[300px]" key={index}>
         <div className="image relative">
           <img
@@ -113,8 +109,8 @@ const Card = () => {
           Logistics
         </button> */}
       </div>
-      <div className="flex items-center justify-center min-h-screen">
-        <div className="containerr flex max-sm:flex-col flex-wrap max-md:m-[2rem]">
+      <div className="flex items-center justify-center min-h-screen min-h-0">
+        <div className="containerr flex max-sm:flex-col flex-wrap max-md:m-[2rem] justify-around">
           {generateCards()}
         </div>
       </div>

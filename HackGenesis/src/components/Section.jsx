@@ -3,7 +3,7 @@ import infinity from "../assets/infinity.png";
 
 const Section = () => {
   return (
-    <div className="lg:relative lg:bottom-[6rem]">
+    <div className="lg:relative lg:bottom-[6rem]" id="about">
       <h1 className="text-5xl text-center max-sm:mt-[5rem] md:mt-[2rem] text-white">
         What is Hack Genesis ?
       </h1>
