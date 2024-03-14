@@ -42,6 +42,10 @@ body {
     max-width: 252px;
     height: 180px;
   }
+  .containerr .card:hover {
+    height: 350px;
+    margin-top: 8rem;
+  }
   .containerr .card .image {
     width: 225px;
     height: 243px;
@@ -50,7 +54,7 @@ body {
 }
 
 .containerr .card:hover {
-  height: 350px;
+  height: 390px;
   margin-top: 8rem;
   /* height: 30rem; */
 }

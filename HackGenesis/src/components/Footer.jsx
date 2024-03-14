@@ -22,13 +22,25 @@ const Footer = () => {
           <a href="#*" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-facebook text-4xl" />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://twitter.com/hackgenesis_24"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fab fa-twitter text-4xl" />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.instagram.com/hackgenesis_24/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fab fa-instagram text-4xl" />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://discord.gg/jxFN5YBYR8"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fab fa-discord text-4xl" />
           </a>
           <a href="#" target="_blank" rel="noopener noreferrer">

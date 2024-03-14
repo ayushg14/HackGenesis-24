@@ -14,6 +14,7 @@ import { Analytics } from "@vercel/analytics/react";
 import Sponsers from "./components/Sponsers";
 import TeamCategories from "./components/TeamCategories";
 import Card from "./components/Card";
+import BackToTopButton from "./components/BackToTopButton";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
       <FAQ />
       {/* <TeamCategories /> */}
       <Footer />
+      <BackToTopButton />
     </div>
   );
 }

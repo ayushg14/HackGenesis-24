@@ -26,7 +26,7 @@ const Hero = () => {
           src={Video}
         />
       </div> */}
-      <div className="hero-content flex flex-col lg:flex-row-reverse items-center justify-center relative max-sm:top-[1rem] z-10 max-sm:h-[27.5rem] md:h-[55rem]">
+      <div className="hero-content flex flex-col lg:flex-row-reverse items-center justify-center relative max-sm:top-[1rem] z-10 max-sm:h-[27.5rem] md:h-[47rem]">
         <div className="flex flex-col justify-start h-screen mt-[10rem] max-md:mt-[3rem]">
           <div>
             <h1 className="text-8xl max-sm:text-4xl max-md:text-5xl font-bold text-white text-center">

@@ -71,7 +71,7 @@ const Navbar = () => {
       </div>
 
       {/* Medium screen Navbar */}
-      <div className="flex justify-between p-[2rem] md:hidden">
+      <div className="flex justify-between md:hidden">
         <header className="header pt-[0.5rem] pb-[0.5rem]">
           <div className="dropdown" ref={dropdownRef}>
             <div

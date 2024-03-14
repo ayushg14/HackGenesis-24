@@ -4,7 +4,7 @@ import "../App.css";
 const Schedule = () => {
   return (
     <div
-      className="lg:relative lg:bottom-[3rem] max-sm:mt-[2rem]"
+      className="lg:relative lg:bottom-[3rem] max-sm:mt-[1rem] p-[1rem]"
       id="schedule"
     >
       <h1 className="text-6xl text-center md:m-[2rem] md:mb-[4.5rem] text-white max-sm:mb-[3rem]">
