@@ -28,7 +28,7 @@ function App() {
       {/* <h1 className="text-7xl p-3">
         CAPS NOT ALLOWED HERE, GET LOST!!!!! KARTIKEY (LAXMI NAGAR WALE)
       </h1> */}
-      {/* <Card /> */}
+      <Card />
       <Sponsers />
       {/* <Banner /> */}
       <FAQ />
