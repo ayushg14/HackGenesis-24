@@ -2,17 +2,17 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Marquee from "./components/Marquee";
+// import Marquee from "./components/Marquee";
 import Tracks from "./components/Tracks";
 import Schedule from "./components/Schedule";
-import Banner from "./components/Banner";
+// import Banner from "./components/Banner";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 import Section from "./components/Section";
-import Marquee2 from "./components/Marquee2";
-import { Analytics } from "@vercel/analytics/react";
+// import Marquee2 from "./components/Marquee2";
+// import { Analytics } from "@vercel/analytics/react";
 import Sponsers from "./components/Sponsers";
-import TeamCategories from "./components/TeamCategories";
+// import TeamCategories from "./components/TeamCategories";
 import Card from "./components/Card";
 import BackToTopButton from "./components/BackToTopButton";
 
@@ -21,8 +21,8 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <Marquee />
-      <Marquee2 />
+      {/* <Marquee />
+      <Marquee2 /> */}
       <Section />
       <Tracks />
       <Schedule />
