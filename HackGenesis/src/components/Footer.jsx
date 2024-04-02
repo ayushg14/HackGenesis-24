@@ -1,4 +1,3 @@
-import React from "react";
 import "./Footer.css";
 
 const Footer = () => {
@@ -6,22 +5,23 @@ const Footer = () => {
     <div className="">
       <div className="container-footer max-md:flex-col md:mt-[6rem]">
         <div className="left-footer">
-          <div className="footer-links flex justify-center items-center mb-[2rem]">
+          <div className="footer-links flex justify-center items-center mb-[2rem] max-sm:ml-[2rem]">
             <a
-              href="#"
+              href="mailto:technicalclubofscience.ncr@christuniversity.in"
+              target="_blank"
               className="contact-us-footer max-md:mr-10 md:mr-10 md:p-[2rem]"
             >
               CONTACT US
             </a>
-            <a href="#" className="contact-us-footer">
+            {/* <a href="#" className="contact-us-footer">
               BROCHURE
-            </a>
+            </a> */}
           </div>
         </div>
-        <div className="social-icons-footer relative md:bottom-[7rem] md:mt-[4rem]">
-          <a href="#*" target="_blank" rel="noopener noreferrer">
+        <div className="lg:ml-[15rem] flex justify-center social-icons-footer relative md:bottom-[7rem] md:mt-[4rem]">
+          {/* <a href="#*" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-facebook text-4xl" />
-          </a>
+          </a> */}
           <a
             href="https://twitter.com/hackgenesis_24"
             target="_blank"
@@ -43,9 +43,9 @@ const Footer = () => {
           >
             <i className="fab fa-discord text-4xl" />
           </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          {/* <a href="#" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin text-4xl" />
-          </a>
+          </a> */}
         </div>
         <div className="right-footer">
           <ul>

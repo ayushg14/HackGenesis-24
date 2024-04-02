@@ -1,7 +1,8 @@
-import React from "react";
 import Devfolio from "../assets/Devfolio_Logo-White@2x.png";
 import Polygon from "../assets/Polygon_Logo-White@2x.png";
 import ETHIndia from "../assets/ethindia-light.png";
+import TeachNook from "../assets/TeachNook-logo.svg";
+import Beeceptor from "../assets/logo-beeceptor-white-bg.svg";
 import "../App.css";
 
 const Sponsers = () => {
@@ -57,6 +58,37 @@ const Sponsers = () => {
         </div>
       </div>
 
+      {/* Education Partner */}
+      <div className="m-[3rem] mb-[2rem] mt-[4rem]">
+        <div className="flex justify-center items-center mb-[3rem]">
+          <h1 className="bg-[#1A1E23] h-[3rem] w-[13rem] p-[0.6rem] pt-[0.7rem] text-center rounded-[2rem] hover:cursor-pointer text-lg">
+            Education Partner
+          </h1>
+          {/* <button className="btn">Gold Sponsers</button> */}
+        </div>
+
+        {/* Sponsers Conatiner */}
+        <div
+          className="flex justify-around items-center max-sm:flex-col"
+          id="main-sponser"
+        >
+          <div
+            className="bg-gray-800 p-[1.3rem] m-[1rem] rounded-lg"
+            id="one-sponser"
+          >
+            <button>
+              <a href="https://teachnook.com/" target="_blank">
+                <img
+                  src={TeachNook}
+                  alt="ETHINDIA LOGO"
+                  className="w-[20rem]"
+                />
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+
       {/* Silver Sponsers */}
       <div className="m-[3rem] mb-[2rem] mt-[2rem]">
         <div className="flex justify-center items-center mb-[3rem]">
@@ -87,6 +119,20 @@ const Sponsers = () => {
             <button>
               <a href="https://ethindia.co" target="_blank">
                 <img src={ETHIndia} alt="ETHINDIA LOGO" className="w-[20rem]" />
+              </a>
+            </button>
+          </div>
+          <div
+            className="bg-gray-800 p-[1.6rem] m-[1rem] rounded-lg"
+            id="one-sponser"
+          >
+            <button>
+              <a href="https://beeceptor.com/" target="_blank">
+                <img
+                  src={Beeceptor}
+                  alt="ETHINDIA LOGO"
+                  className="w-[20rem]"
+                />
               </a>
             </button>
           </div>

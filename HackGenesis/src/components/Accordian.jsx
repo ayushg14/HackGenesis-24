@@ -33,7 +33,7 @@ const Accordian = () => {
         )}
       </div>
 
-      <div className="collapse collapse-plus bg-base-200 m-[2rem]">
+      {/* <div className="collapse collapse-plus bg-base-200 m-[2rem]">
         <input
           type="radio"
           name="my-accordion-3"
@@ -52,9 +52,9 @@ const Accordian = () => {
             </p>
           </div>
         )}
-      </div>
+      </div> */}
 
-      <div className="collapse collapse-plus bg-base-200 m-[2rem]">
+      {/* <div className="collapse collapse-plus bg-base-200 m-[2rem]">
         <input
           type="radio"
           name="my-accordion-3"
@@ -75,17 +75,17 @@ const Accordian = () => {
             </p>
           </div>
         )}
-      </div>
+      </div> */}
 
       <div className="collapse collapse-plus bg-base-200 m-[2rem]">
         <input
           type="radio"
           name="my-accordion-3"
-          checked={expandedIndex === 3}
-          onClick={() => handleCollapseToggle(3)}
+          checked={expandedIndex === 1}
+          onClick={() => handleCollapseToggle(1)}
         />
         <div className="collapse-title text-xl font-medium">Team size?</div>
-        {expandedIndex === 3 && (
+        {expandedIndex === 1 && (
           <div className="collapse-content">
             <p>
               It's a party of 2-4, but hey, solo flyers, fear not! You can still
@@ -101,13 +101,13 @@ const Accordian = () => {
         <input
           type="radio"
           name="my-accordion-3"
-          checked={expandedIndex === 4}
-          onClick={() => handleCollapseToggle(4)}
+          checked={expandedIndex === 2}
+          onClick={() => handleCollapseToggle(2)}
         />
         <div className="collapse-title text-xl font-medium">
           Is this hackathon beginner-friendly?
         </div>
-        {expandedIndex === 4 && (
+        {expandedIndex === 2 && (
           <div className="collapse-content">
             <p>
               Absolutely! We welcome beginners with open arms, a warm smile,
@@ -123,14 +123,14 @@ const Accordian = () => {
         <input
           type="radio"
           name="my-accordion-3"
-          checked={expandedIndex === 5}
-          onClick={() => handleCollapseToggle(5)}
+          checked={expandedIndex === 3}
+          onClick={() => handleCollapseToggle(3)}
         />
         <div className="collapse-title text-xl font-medium">
           Is the hackathon solely focused on coding, or is there
           <br /> more to it than meets the eye?
         </div>
-        {expandedIndex === 5 && (
+        {expandedIndex === 3 && (
           <div className="collapse-content">
             <p>
               Surprises await! While coding is definitely a big part of the fun,
@@ -147,13 +147,13 @@ const Accordian = () => {
         <input
           type="radio"
           name="my-accordion-3"
-          checked={expandedIndex === 6}
-          onClick={() => handleCollapseToggle(6)}
+          checked={expandedIndex === 4}
+          onClick={() => handleCollapseToggle(4)}
         />
         <div className="collapse-title text-xl font-medium">
           Curious about anything else?
         </div>
-        {expandedIndex === 6 && (
+        {expandedIndex === 4 && (
           <div className="collapse-content">
             <p>
               🤔 Don't hesitate to drop us <br />

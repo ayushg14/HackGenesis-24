@@ -1,4 +1,3 @@
-import React from "react";
 import "../App.css";
 
 const Schedule = () => {
@@ -39,12 +38,11 @@ const Schedule = () => {
 
         <div className="container m-5 left-container">
           <div className="text-box md:w-[19rem] lg:w-[31rem]">
-            <h2 className="text-black text-2xl">13th April, 3:00 PM</h2>
-            {/* <small>2018 - 2019</small> */}
+            <h2 className="text-black text-2xl">15th April, 06:00 PM</h2>
             <p className="mt-[0.5rem] text-gray-600">
-              <span className="text-black">Pre-Event: </span> Join us for the
-              pre-event activities, setting the stage for an unforgettable
-              hackathon experience.
+              <span className="text-black">Hackathon Starts: </span> he
+              hackathon officially kicks off, igniting the spirit of innovation
+              and collaboration.
             </p>
             <span className="left-container-arrow"></span>
           </div>
@@ -52,12 +50,11 @@ const Schedule = () => {
 
         <div className="container right-container w-auto m-auto relative md:left-[22%] lg:left-[25%] max-sm:left-[-2rem] md:m-0">
           <div className="text-box lg:w-[32rem] md:w-[19rem]">
-            <h2 className="text-black text-2xl">16th April, 10:00 AM</h2>
+            <h2 className="text-black text-2xl">18th April, 9:00 AM</h2>
             {/* <small>2018 - 2019</small> */}
             <p className="mt-[0.5rem] text-gray-600">
-              <span className="text-black">Hackathon Starts: </span> The
-              hackathon officially kicks off, igniting the spirit of innovation
-              and collaboration.
+              <span className="text-black">Finale: </span> Unveiling of
+              groundbreaking projects and the celebration of innovation.
             </p>
             <span className="right-container-arrow max-sm:hidden"></span>
           </div>
@@ -65,18 +62,6 @@ const Schedule = () => {
 
         <div className="container m-5 left-container">
           <div className="text-box md:w-[19rem] lg:w-[31rem]">
-            <h2 className="text-black text-2xl">18th April, 9:00 AM</h2>
-            {/* <small>2018 - 2019</small> */}
-            <p className="mt-[0.5rem] text-gray-600">
-              <span className="text-black">Finale (Hybrid): </span> Unveiling of
-              groundbreaking projects and the celebration of innovation.
-            </p>
-            <span className="left-container-arrow"></span>
-          </div>
-        </div>
-
-        <div className="container right-container w-auto m-auto relative md:left-[22%] lg:left-[25%] max-sm:left-[-2rem] md:m-0">
-          <div className="text-box lg:w-[32rem] md:w-[19rem]">
             <h2 className="text-black text-2xl">18th April, 5:00 PM</h2>
             {/* <small>2018 - 2019</small> */}
             <p className="mt-[0.5rem] text-gray-600">
@@ -84,9 +69,21 @@ const Schedule = () => {
               together to celebrate the achievements, camaraderie, and lasting
               impact of our hackathon journey.
             </p>
-            <span className="right-container-arrow max-sm:hidden"></span>
+            <span className="left-container-arrow"></span>
           </div>
         </div>
+
+        {/* <div className="container right-container w-auto m-auto relative md:left-[22%] lg:left-[25%] max-sm:left-[-2rem] md:m-0">
+          <div className="text-box lg:w-[32rem] md:w-[19rem]">
+            <h2 className="text-black text-2xl">18th April, 5:00 PM</h2>
+            <p className="mt-[0.5rem] text-gray-600">
+              <span className="text-black">Closing Ceremony: </span> Come
+              together to celebrate the achievements, camaraderie, and lasting
+              impact of our hackathon journey.
+            </p>
+            <span className="right-container-arrow max-sm:hidden"></span>
+          </div>
+        </div> */}
       </div>
     </div>
   );

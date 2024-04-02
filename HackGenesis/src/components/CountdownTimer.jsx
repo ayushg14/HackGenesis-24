@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const CountdownTimer = () => {
-  const endDate = new Date("April 16, 2024 00:00:00").getTime(); // Fixed end date
+  const endDate = new Date("April 15, 2024 18:00:00").getTime(); // Fixed end date
 
   const [countdown, setCountdown] = useState({
     days: 0,
