@@ -33,7 +33,7 @@ const Sponsers = () => {
             id="one-sponser"
           >
             <button>
-              <a href="https://polygon.technology/" target="_blank">
+              <a href="https://www.ruloans.com/" target="_blank">
                 <img src={Ruloans} alt="POLYGON LOGO" className="w-[20rem]" />
               </a>
             </button>
@@ -197,7 +197,7 @@ const Sponsers = () => {
             id="one-sponser"
           >
             <button>
-              <a href="https://polygon.technology/" target="_blank">
+              <a href="https://interviewbuddy.net/" target="_blank">
                 <img
                   src={Buddy}
                   alt="POLYGON LOGO"
