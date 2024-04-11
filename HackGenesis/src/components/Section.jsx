@@ -49,7 +49,7 @@ const Section = () => {
           </div>
           <div className="bg-gray-800 h-[8rem] w-[20rem] rounded-xl mt-10">
             <div className="flex flex-col justify-center items-start relative top-[2rem] ml-5">
-              <h1 className="text-4xl mb-[0.5rem] text-[#FFED00]">150 +</h1>
+              <h1 className="text-4xl mb-[0.5rem] text-[#FFED00]">300 +</h1>
               <h1 className="">Participants</h1>
             </div>
           </div>

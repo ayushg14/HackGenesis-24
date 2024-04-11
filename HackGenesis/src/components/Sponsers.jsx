@@ -3,6 +3,8 @@ import Polygon from "../assets/Polygon_Logo-White@2x.png";
 import ETHIndia from "../assets/ethindia-light.png";
 import TeachNook from "../assets/TeachNook-logo.svg";
 import Beeceptor from "../assets/logo-beeceptor-white-bg.svg";
+import Buddy from "../assets/new sponsors (2) (1).png";
+import Ruloans from "../assets/logo.png";
 import "../App.css";
 
 const Sponsers = () => {
@@ -12,7 +14,35 @@ const Sponsers = () => {
       id="sponsors"
     >
       <h1 className="text-6xl text-center text-white">Sponsors</h1>
+
+      {/* Event Sponsors */}
       <div className="m-[3rem] mb-[2rem] mt-[4rem]">
+        <div className="flex justify-center items-center mb-[3rem]">
+          <h1 className="bg-[#1A1E23] h-[3rem] w-[12rem] p-[0.6rem] pt-[0.7rem] text-center rounded-[2rem] hover:cursor-pointer text-lg">
+            Event Sponsors
+          </h1>
+        </div>
+
+        {/* Sponsers Conatiner */}
+        <div
+          className="flex justify-around items-center max-sm:flex-col"
+          id="main-sponser"
+        >
+          <div
+            className="bg-gray-800 p-[1.3rem] m-[1rem] rounded-lg"
+            id="one-sponser"
+          >
+            <button>
+              <a href="https://polygon.technology/" target="_blank">
+                <img src={Ruloans} alt="POLYGON LOGO" className="w-[20rem]" />
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Gold Sponsors */}
+      <div className="m-[3rem] mb-[2rem] mt-[2rem]">
         <div className="flex justify-center items-center mb-[3rem]">
           <h1 className="bg-[#1A1E23] h-[3rem] w-[11rem] p-[0.6rem] pt-[0.7rem] text-center rounded-[2rem] hover:cursor-pointer text-lg">
             Gold Sponsors
@@ -146,6 +176,36 @@ const Sponsers = () => {
               </a>
             </button>
           </div> */}
+        </div>
+      </div>
+
+      {/* Bronze Sponsor */}
+      <div className="m-[3rem] mb-[2rem] mt-[2rem]">
+        <div className="flex justify-center items-center mb-[3rem]">
+          <h1 className="bg-[#1A1E23] h-[3rem] w-[12rem] p-[0.6rem] pt-[0.7rem] text-center rounded-[2rem] hover:cursor-pointer text-lg">
+            Bronze Sponsors
+          </h1>
+        </div>
+
+        {/* Sponsers Conatiner */}
+        <div
+          className="flex justify-around items-center max-sm:flex-col"
+          id="main-sponser"
+        >
+          <div
+            className="bg-gray-800 p-[1.3rem] m-[1rem] rounded-lg"
+            id="one-sponser"
+          >
+            <button>
+              <a href="https://polygon.technology/" target="_blank">
+                <img
+                  src={Buddy}
+                  alt="POLYGON LOGO"
+                  className="h-[5rem] w-[14rem]"
+                />
+              </a>
+            </button>
+          </div>
         </div>
       </div>
     </div>
